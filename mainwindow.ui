@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QGridLayout" name="gridLayout" rowstretch="1,10">
+   <layout class="QGridLayout" name="gridLayout" rowstretch="1,10" columnstretch="2,6,0">
     <item row="0" column="0">
      <widget class="QLabel" name="coordinations_label">
       <property name="text">
@@ -29,7 +29,14 @@
       </property>
      </widget>
     </item>
-    <item row="1" column="0" colspan="2">
+    <item row="0" column="2">
+     <widget class="QPushButton" name="projection_bottun">
+      <property name="text">
+       <string>Spherical</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="3">
      <widget class="QWidget" name="base_widget" native="true">
       <property name="styleSheet">
        <string notr="true">border-radius: 40px;</string>

@@ -23,5 +23,6 @@ private:
 
 private slots:
     void SetCoodinates(qreal, qreal, Marble::GeoDataCoordinates::Unit);
+    void on_projection_bottun_clicked();
 };
 #endif // MAINWINDOW_H
