@@ -24,5 +24,6 @@ private:
 private slots:
     void SetCoodinates(qreal, qreal, Marble::GeoDataCoordinates::Unit);
     void on_projection_bottun_clicked();
+    void on_comboBox_currentIndexChanged(const QString &arg1);
 };
 #endif // MAINWINDOW_H
