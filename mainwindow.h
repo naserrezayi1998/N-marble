@@ -19,5 +19,6 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    Marble::MarbleWidget *map_widget_ = nullptr;
 };
 #endif // MAINWINDOW_H
