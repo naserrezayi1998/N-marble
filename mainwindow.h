@@ -20,5 +20,8 @@ public:
 private:
     Ui::MainWindow *ui;
     Marble::MarbleWidget *map_widget_ = nullptr;
+
+private slots:
+    void SetCoodinates(qreal, qreal, Marble::GeoDataCoordinates::Unit);
 };
 #endif // MAINWINDOW_H
