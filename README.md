@@ -26,3 +26,5 @@ sudo make install
 5. Folow the steps in docs and you are good to go!
 
 objective : add zone
+Update : Found this for zones
+https://github.com/KDE/marble/blob/master/examples/cpp/drawing-places/main.cpp
