@@ -28,3 +28,5 @@ sudo make install
 objective : add zone
 Update : Found this for zones
 https://github.com/KDE/marble/blob/master/examples/cpp/drawing-places/main.cpp
+
+* Set coordination will be used for zone, vehicle and bookmarks
