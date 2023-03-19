@@ -24,3 +24,5 @@ sudo make install
 4. Add to Qt : There are three libs which you have to add them to your qmake / cmake builder >> libastro, lmarbledeclarative, lmarblewidget-qt5
 
 5. Folow the steps in docs and you are good to go!
+
+objective : add zone
