@@ -6,24 +6,26 @@
 #include "compiled-marble/include/marble/MarbleDirs.h"
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class MainWindow; }
+namespace Ui {
+class MainWindow;
+}
 QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
 {
-    Q_OBJECT
+   Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
-    ~MainWindow();
+   MainWindow(QWidget *parent = nullptr);
+   ~MainWindow();
 
 private:
-    Ui::MainWindow *ui;
-    Marble::MarbleWidget *map_widget_ = nullptr;
+   Ui::MainWindow *ui;
+   Marble::MarbleWidget *map_widget_ = nullptr;
 
 private slots:
-    void SetCoodinates(qreal, qreal, Marble::GeoDataCoordinates::Unit);
-    void on_projection_bottun_clicked();
-    void on_comboBox_currentIndexChanged(const QString &arg1);
+   void SetCoodinates(qreal, qreal, Marble::GeoDataCoordinates::Unit);
+   void on_projection_bottun_clicked();
+   void on_comboBox_currentIndexChanged(const QString& arg1);
 };
 #endif // MAINWINDOW_H
